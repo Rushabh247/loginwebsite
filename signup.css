@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family:  'Jost', sans-serif;
+}
+
+.outer-box {
+
+    height: 100vh;
+    background: linear-gradient(to top left,#0f0c29,#302b63,#24243e);
+    background-image: url(new\ imagee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-box {
+    width: 450px;
+    margin: 0 auto;
+    position: relative;
+    
+    top: 30%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: #6476dbcc;
+    backdrop-filter: blur[9px];
+    border-radius: 8px;
+    box-shadow: 5px 5px 20px #1e5c85;
+    z-index: 2;
+}
+
+h1 {
+    size: 2.5rem;
+    color: #212121;
+}
+
+.sign-body {
+    margin: 25px 5px;
+}
+.signup-body p {
+    margin: 10px 0px;
+}
+
+.signup-body p label {
+    display: block;
+    font-weight: bold;
+
+}
+
+.sign-body p input {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #cccc;
+    border-radius: 5px;
+    font-size: 2rem;
+    margin-top: 5px;
+}
+#submit {
+    background: Grdient;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 3px;
+    border: black;
+    color: rgb(78, 70, 66);
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: flex;
+}
+
+#submit :hover {
+    color:#1e5c85 ;
+
+}
+
+.signup-footer {
+  color: #555;  
+  text-align: center;
+  
+}
+
+.signup-footer p a {
+    color: #eb4034;
+    font-weight: bold;
+}
+
+.member {
+font-weight: bold;
+color: #212121;
+
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right,#c0b5b5aa,#ffffffff);
+    position: absolute;
+}
+
+.c1 {
+    top: 100px;
+    left: 45px;
+}
+
+ .c2 {
+    bottom: 100px;
+    right: 60px;
+}
